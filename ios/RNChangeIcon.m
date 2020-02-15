@@ -5,7 +5,7 @@
 
 RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(changeIcon:iconName:(NSString *)iconName)
+RCT_EXPORT_METHOD(changeIcon:(NSString *)iconName)
 {
       NSError *error = nil;
     // Not supported
